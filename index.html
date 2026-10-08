@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Metatags SEO -->
+    <title>Rosa Issa Home Care | Cuidadores de Idosos com Amor e Dedicação</title>
+    <meta name="description" content="Rosa Issa Home Care oferece serviços especializados de cuidadores de idosos e assistência domiciliar no Rio de Janeiro. Cuidado humanizado, equipe qualificada e supervisão permanente.">
+    <meta name="keywords" content="cuidador de idosos, home care, assistência domiciliar, enfermagem domiciliar, cuidadores Rio de Janeiro, Rosa Issa Home Care">
+    <meta name="author" content="Rosa Issa Home Care">
+    <meta name="theme-color" content="#d81b60">
+
+    <!-- Open Graph / Redes Sociais -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rosa Issa Home Care | Cuidadores de Idosos">
+    <meta property="og:description" content="Cuidando com carinho, respeito e profissionalismo de quem um dia cuidou de você. Avaliação gratuita e planos personalizados.">
+    <meta property="og:image" content="images/logotipo.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon1.png">
+    <link rel="shortcut icon" type="image/png" href="images/favicon1.png">
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+    <!-- Ícones: Bootstrap Icons e Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Folhas de Estilo -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reponsive.css" media="screen">
+
+    <!-- Scripts com defer -->
+    <script src="js/menu.js" defer></script>
+    <script src="js/btn-menu-mob.js" defer></script>
+</head>
+<body>
+
+    <!-- Cabeçalho / Navegação Fixa -->
+    <header id="header">
+        <div class="interface">
+            <div class="logo">
+                <a href="#" aria-label="Rosa Issa Home Care - Início">
+                    <img class="logo-u" src="images/logo-1.png" alt="Logotipo Rosa Issa Home Care" width="55" height="55">
+                    <img class="logo-d" src="images/logo-2.png" alt="Logotipo Rosa Issa Home Care" width="55" height="55">
+                    <span class="logo-text">Rosa Issa <span>Home Care</span></span>
+                </a>
+            </div>
+
+            <nav class="menu-desktop" aria-label="Navegação principal">
+                <ul class="nav-pills">
+                    <li>
+                        <a href="#" class="nav-link active">
+                            <i class="bi bi-house-door-fill" aria-hidden="true"></i>
+                            <span>HOME</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#cuidadosrosissa" class="nav-link">
+                            <i class="bi bi-heart-pulse-fill" aria-hidden="true"></i>
+                            <span>CUIDADOS</span>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="#razoes" class="nav-link">
+                            <i class="bi bi-stars" aria-hidden="true"></i>
+                            <span>VANTAGENS</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#comofunciona" class="nav-link">
+                            <i class="bi bi-clipboard2-check-fill" aria-hidden="true"></i>
+                            <span>NA PRÁTICA</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#duvidas" class="nav-link">
+                            <i class="bi bi-question-circle-fill" aria-hidden="true"></i>
+                            <span>DÚVIDAS</span>
+                        </a>
+                    </li>                        
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="https://wa.me/5521993219162?text=Olá!%20Quero%20fazer%20um%20orçamento%20com%20a%20Rosa%20Issa." target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn-primary-header">
+                        <i class="bi bi-whatsapp"></i> Contato
+                    </button>
+                </a>
+            </div>
+
+            <!-- Botão Hamburguer Mobile -->
+            <button class="bnt-menu-mob" id="bnt-menu-mob" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="menu-mobile">
+                <span class="line-menumob-1"></span>
+                <span class="line-menumob-2"></span>
+            </button>
+
+            <!-- Menu Lateral / Gaveta Mobile -->
+            <div class="menu-mobile" id="menu-mobile" aria-hidden="true">
+                <nav aria-label="Navegação mobile">
+                    <div class="mobile-drawer-header">
+                        <span class="drawer-title">Menu de Navegação</span>
+                    </div>
+                    <ul class="mobile-drawer-links">
+                        <li>
+                            <a href="#" class="mobile-nav-link active">
+                                <i class="bi bi-house-door-fill"></i>
+                                <span>HOME</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#cuidadosrosissa" class="mobile-nav-link">
+                                <i class="bi bi-heart-pulse-fill"></i>
+                                <span>CUIDADOS</span>
+                            </a>
+                        </li> 
+                        <li>
+                            <a href="#razoes" class="mobile-nav-link">
+                                <i class="bi bi-stars"></i>
+                                <span>VANTAGENS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#comofunciona" class="mobile-nav-link">
+                                <i class="bi bi-clipboard2-check-fill"></i>
+                                <span>NA PRÁTICA</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#duvidas" class="mobile-nav-link">
+                                <i class="bi bi-question-circle-fill"></i>
+                                <span>DÚVIDAS</span>
+                            </a>
+                        </li>                        
+                    </ul>
+                    <div class="mobile-cta">
+                        <a href="https://wa.me/5521993219162?text=Olá!%20Quero%20fazer%20um%20orçamento%20com%20a%20Rosa%20Issa." target="_blank" rel="noopener noreferrer">
+                            <button type="button" class="btn-mobile-whatsapp">
+                                <i class="bi bi-whatsapp"></i> Falar no WhatsApp
+                            </button>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>      
+    </header>
+
+    <!-- Barra de Navegação Horizontal Mobile / Tablet (Acesso Rápido Horizontal) -->
+    <nav class="mobile-horizontal-nav" id="mobile-horizontal-nav" aria-label="Navegação rápida por seções">
+        <div class="mobile-nav-scroll">
+            <a href="#" class="mob-pill active" data-target="hero">
+                <i class="bi bi-house-door-fill"></i>
+                <span>HOME</span>
+            </a>
+            <a href="#cuidadosrosissa" class="mob-pill" data-target="cuidadosrosissa">
+                <i class="bi bi-heart-pulse-fill"></i>
+                <span>CUIDADOS</span>
+            </a>
+            <a href="#razoes" class="mob-pill" data-target="razoes">
+                <i class="bi bi-stars"></i>
+                <span>VANTAGENS</span>
+            </a>
+            <a href="#comofunciona" class="mob-pill" data-target="comofunciona">
+                <i class="bi bi-clipboard2-check-fill"></i>
+                <span>NA PRÁTICA</span>
+            </a>
+            <a href="#duvidas" class="mob-pill" data-target="duvidas">
+                <i class="bi bi-question-circle-fill"></i>
+                <span>DÚVIDAS</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Botões Flutuantes -->
+    <a class="whatsapp-link" href="https://wa.me/5521993219162?text=Olá!%20Quero%20fazer%20um%20orçamento%20com%20a%20Rosa%20Issa." target="_blank" rel="noopener noreferrer" aria-label="Conversar pelo WhatsApp">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        <span class="whatsapp-tooltip">Fale no WhatsApp</span>
+    </a>
+
+    <a class="topo" id="btn-topo" href="#" aria-label="Voltar ao topo da página">                    
+        <i class="bi bi-chevron-up" aria-hidden="true"></i>
+    </a>    
+
+    <main>
+        <!-- Seção Hero / Início -->
+        <section class="hero-site" id="hero">
+            <div class="hero-overlay"></div>
+            <div class="interface">
+                <div class="txt-hero">
+                    <span class="hero-badge">
+                        <i class="bi bi-shield-check"></i> Cuidado Humanizado & Profissional
+                    </span>
+                    <h1>Precisando de <span>um Cuidador?</span></h1>
+                    <p class="hero-company">Rosa Issa Home Care <span>• Cuidadores de Idosos com Excelência</span></p>               
+                    <p class="hero-mission">
+                        Nossa missão é cuidar da saúde e do bem-estar de pessoas que precisam de cuidados especiais com atendimento humanizado, garantindo qualidade de vida, amor e carinho a quem um dia cuidou de você.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="https://wa.me/5521993219162?text=Olá!%20Quero%20fazer%20um%20orçamento%20com%20a%20Rosa%20Issa." target="_blank" rel="noopener noreferrer">
+                            <button type="button" class="btn-hero-primary">
+                                <i class="bi bi-whatsapp"></i> Quero Conhecer
+                            </button>
+                        </a>
+                        <a href="#cuidadosrosissa" class="btn-hero-secondary">
+                            Conhecer Nossos Cuidados <i class="bi bi-arrow-down-short"></i>
+                        </a>
+                    </div>
+
+                    <!-- Destaques Rápidos na Hero -->
+                    <div class="hero-features">
+                        <div class="hero-feat-item">
+                            <i class="bi bi-patch-check-fill"></i>
+                            <span>Avaliação Gratuita</span>
+                        </div>
+                        <div class="hero-feat-item">
+                            <i class="bi bi-heart-pulse-fill"></i>
+                            <span>Equipe Qualificada</span>
+                        </div>
+                        <div class="hero-feat-item">
+                            <i class="bi bi-clock-history"></i>
+                            <span>Supervisão Contínua</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Vantagens / Nossos Cuidados -->
+        <section class="vantagens" id="cuidadosrosissa">
+            <div class="interface">
+                <div class="section-header">
+                    <span class="section-tag">Nossos Cuidados</span>
+                    <h2>Atenção Especial para Cada Momento</h2>
+                    <p>Atendimento individualizado para proporcionar tranquilidade à família e dignidade ao assistido.</p>
+                </div>
+
+                <!-- Item 1: Acompanhar o Idoso -->
+                <article class="itens-container item-left">
+                    <div class="txt-itens">
+                        <span class="card-pill">Companhia & Apoio</span>
+                        <h3><span>Acompanhar</span> o Idoso</h3>
+                        <p>O estado em que se encontra o paciente é determinante para definir a intensidade e as rotinas do atendimento. Cada pessoa é única, demandando cuidados específicos, escuta atenta e atenção primordial em todas as fases do dia a dia.</p>
+                        <ul class="item-checklist">
+                            <li><i class="bi bi-check2-circle"></i> Auxílio nas atividades diárias e locomoção segura</li>
+                            <li><i class="bi bi-check2-circle"></i> Companhia atenciosa e estímulo ao bem-estar emocional</li>
+                            <li><i class="bi bi-check2-circle"></i> Suporte e presença ativa em passeios e lazer</li>
+                        </ul>
+                    </div>
+                    <div class="img-itens">
+                        <div class="img-wrapper">
+                            <img src="images/acompanhante.jpg" alt="Cuidadora acompanhando senhora com carinho" loading="lazy">
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Item 2: Cuidados com os Idosos -->
+                <article class="itens-container item-right">
+                    <div class="img-itens">
+                        <div class="img-wrapper">
+                            <img src="images/cuidados.jpg" alt="Profissional de saúde checando prontuário e cuidados" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="txt-itens">
+                        <span class="card-pill">Saúde Integral</span>
+                        <h3><span>Cuidados</span> com os Idosos</h3>
+                        <p>O bem-estar físico e mental é essencial para uma terceira idade com qualidade. Cuidamos do controle rigoroso das medicações, da segurança preventiva no ambiente residencial, do acompanhamento atencioso em consultas médicas e do fortalecimento do círculo afetivo.</p>
+                        <ul class="item-checklist">
+                            <li><i class="bi bi-check2-circle"></i> Administração e pontualidade na medicação prescrita</li>
+                            <li><i class="bi bi-check2-circle"></i> Acompanhamento presencial em consultas e exames</li>
+                            <li><i class="bi bi-check2-circle"></i> Prevenção de acidentes e adaptação da rotina doméstica</li>
+                        </ul>
+                    </div>              
+                </article>
+
+                <!-- Item 3: Cuidadores Técnicos -->
+                <article class="itens-container item-left">
+                    <div class="txt-itens">
+                        <span class="card-pill">Alta Especialização</span>
+                        <h3><span>Cuidadores</span> Técnicos</h3>
+                        <p>Assistência técnica qualificada com prestação de cuidados de enfermagem especializados para pacientes que demandam cuidados contínuos, recuperação pós-cirúrgica ou quadros clínicos específicos. Profissionais habilitados que exercem suas funções com base em rigorosas diretrizes de saúde.</p>
+                        <ul class="item-checklist">
+                            <li><i class="bi bi-check2-circle"></i> Monitoramento contínuo de sinais vitais e evolução clínica</li>
+                            <li><i class="bi bi-check2-circle"></i> Cuidados técnicos com curativos, sondas e dietas enterais</li>
+                            <li><i class="bi bi-check2-circle"></i> Profissionais devidamente certificados e supervisionados</li>
+                        </ul>
+                    </div>
+                    <div class="img-itens">
+                        <div class="img-wrapper">
+                            <img src="images/tecnicos.jpg" alt="Técnico de enfermagem segurando a mão de paciente com zelo" loading="lazy">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção Razões para Contratar -->
+        <section id="razoes" class="service">
+            <div class="interface">
+                <div class="section-header">
+                    <span class="section-tag">Por Que a Rosa Issa?</span>
+                    <h2>Razões para Escolher e Confiar na Nossa Equipe</h2>
+                    <p>Compromisso ético, supervisão médica e proximidade humana em cada detalhe do nosso atendimento.</p>
+                </div>
+                
+                <div class="service-grid">
+                    <!-- Razão 1 -->
+                    <div class="single-service-item">
+                        <div class="service-icon-box">
+                            <img src="images/avaliacao.png" alt="Ícone de prancheta de avaliação médica" width="60" height="60" loading="lazy">
+                        </div>
+                        <h3>1. Avaliação <span>Gratuita</span></h3>
+                        <p>Realizamos uma avaliação detalhada e acolhedora das necessidades do paciente, propondo o plano ideal para conforto de toda a família.</p>
+                    </div>												
+
+                    <!-- Razão 2 -->
+                    <div class="single-service-item">
+                        <div class="service-icon-box">
+                            <img src="images/cuidadadores.png" alt="Ícone de casal sob coração" width="60" height="60" loading="lazy">
+                        </div>
+                        <h3>2. Cuidadores <span>Atenciosos</span></h3>
+                        <p>Nossa equipe é criteriosamente selecionada e capacitada continuamente, priorizando o zelo, a paciência e a empatia.</p>
+                    </div>												
+
+                    <!-- Razão 3 -->
+                    <div class="single-service-item">
+                        <div class="service-icon-box">
+                            <img src="images/planos.png" alt="Ícone de planos e opções" width="60" height="60" loading="lazy">
+                        </div>
+                        <h3>3. Planos <span>Personalizados</span></h3>
+                        <p>Formatamos planos flexíveis e individualizados, adequando horários, plantões e serviços à rotina de cada residência.</p>
+                    </div>												
+
+                    <!-- Razão 4 -->
+                    <div class="single-service-item">
+                        <div class="service-icon-box">
+                            <img src="images/supervisao2.png" alt="Ícone de supervisão contínua" width="60" height="60" loading="lazy">
+                        </div>
+                        <h3>4. Supervisão <span>Permanente</span></h3>
+                        <p>Supervisão técnica de enfermagem ativa, em constante diálogo com os cuidadores e fornecendo suporte integral aos familiares.</p>
+                    </div>												
+
+                    <!-- Razão 5 -->
+                    <div class="single-service-item">
+                        <div class="service-icon-box">
+                            <img src="images/respeito2.png" alt="Ícone de respeito e afeto" width="60" height="60" loading="lazy">
+                        </div>
+                        <h3>5. Respeito <span>e Carinho</span></h3>
+                        <p>Olhar sensível e humanizado para cada assistido, valorizando sua autonomia, suas histórias de vida e a sua dignidade.</p>
+                    </div>												
+
+                    <!-- Razão 6 -->
+                    <div class="single-service-item">
+                        <div class="service-icon-box">
+                            <img src="images/relatorios.png" alt="Ícone de relatórios diários de saúde" width="60" height="60" loading="lazy">
+                        </div>
+                        <h3>6. Relatórios <span>Diários</span></h3>
+                        <p>Registros transparentes e periódicos da rotina do paciente, mantendo a família sempre atualizada e com total segurança.</p>
+                    </div>												
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seção Como Funciona -->
+        <section class="como-funciona" id="comofunciona">
+            <div class="interface">
+                <div class="funciona-wrapper">
+                    <div class="txt-funciona">
+                        <span class="section-tag">Passo a Passo</span>
+                        <h2>Como <span>Funciona?</span></h2>
+                        <p>Contratar o melhor cuidado para seu familiar é simples, rápido e transparente. Veja as etapas:</p>
+                        <div class="funciona-cta-desktop">
+                            <a href="https://wa.me/5521993219162?text=Olá!%20Quero%20fazer%20um%20orçamento%20com%20a%20Rosa%20Issa." target="_blank" rel="noopener noreferrer">
+                                <button type="button" class="btn-funciona">
+                                    <i class="bi bi-whatsapp"></i> Iniciar Atendimento
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="instrucoes">
+                        <!-- Passo 1 -->
+                        <article class="instru-box">
+                            <div class="instru-number">01</div>
+                            <div class="img-instru-box">
+                                <img src="images/atendente.png" alt="Ilustração de atendimento humanizado" width="75" height="75" loading="lazy">
+                            </div>
+                            <div class="txt-intru-box">
+                                <h4>Você Fala Conosco</h4>
+                                <p>Entre em contato pelo WhatsApp ou telefone, fornecendo as informações iniciais sobre o paciente, rotinas e comorbidades.</p>
+                            </div>
+                        </article>
+
+                        <!-- Passo 2 -->
+                        <article class="instru-box">
+                            <div class="instru-number">02</div>
+                            <div class="img-instru-box">
+                                <img src="images/orcamento.png" alt="Ilustração de elaboração de plano personalizado" width="75" height="75" loading="lazy">
+                            </div>
+                            <div class="txt-intru-box">
+                                <h4>Avaliamos as Necessidades</h4>
+                                <p>Analisamos criteriosamente o quadro clínico e elaboramos um orçamento personalizado e transparente de Cuidados Home Care.</p>
+                            </div>
+                        </article>
+
+                        <!-- Passo 3 -->
+                        <article class="instru-box">
+                            <div class="instru-number">03</div>
+                            <div class="img-instru-box">
+                                <img src="images/domicilio.png" alt="Ilustração de atendimento no domicílio" width="75" height="75" loading="lazy">
+                            </div>
+                            <div class="txt-intru-box">
+                                <h4>Início dos Cuidados</h4>
+                                <p>Com a proposta aprovada, formalizamos o contrato e iniciamos imediatamente o atendimento humanizado no conforto do lar.</p>
+                            </div>
+                        </article>
+
+                        <div class="funciona-cta-mobile">
+                            <a href="https://wa.me/5521993219162?text=Olá!%20Quero%20fazer%20um%20orçamento%20com%20a%20Rosa%20Issa." target="_blank" rel="noopener noreferrer">
+                                <button type="button" class="btn-funciona">
+                                    <i class="bi bi-whatsapp"></i> Iniciar Atendimento Agora
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Vídeo Rosa Issa -->
+        <section class="secao-video">
+            <div class="interface">
+                <div class="section-header">
+                    <span class="section-tag">Conheça Nossa Dedicação</span>
+                    <h2>A Rosa Issa Home Care na Prática</h2>
+                    <p>Assista ao vídeo e veja como transformamos carinho e conhecimento técnico em qualidade de vida.</p>
+                </div>
+
+                <div class="boxVideo">
+                    <div class="video-card">
+                        <video controls playsinline preload="metadata" poster="images/img_corpo.jpg">
+                            <source src="videos/Rosa Issa Home Care.mp4" type="video/mp4">
+                            Seu navegador não suporta a exibição deste vídeo.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Dúvidas / Banner Chamada -->
+        <section class="duvidas" id="duvidas">
+            <div class="overlay"></div>
+            <div class="interface">
+                <div class="duvidas-content">
+                    <span class="duvidas-badge"><i class="bi bi-chat-heart"></i> Estamos Prontos para Te Ajudar</span>
+                    <h3>Ainda com Dúvidas? <span>Deixe com a Rosa Issa</span></h3>
+                    <p>Cuidaremos do seu familiar com todo o carinho, respeito e profissionalismo que ele merece.</p>
+                    <a href="https://wa.me/5521993219162?text=Olá!%20Ainda%20tenho%20dúvidas%20e%20gostaria%20de%20orientações." target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="btn-duvidas">
+                            <i class="bi bi-whatsapp"></i> Falar com Especialista
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Canais de Contato -->
+        <section class="contato" id="contato">
+            <div class="interface">
+                <div class="contato-wrapper">
+                    <article class="txt-contato">
+                        <span class="section-tag">Canais de Atendimento</span>
+                        <h3>Fale Agora com a <span>Rosa Issa!</span></h3>
+                        <p>Solicite seu orçamento personalizado sem compromisso. Nossa equipe terá a maior satisfação em ouvir e orientar sua família.</p>
+                        
+                        <div class="contato-info-card">
+                            <div class="info-line">
+                                <i class="bi bi-telephone-fill"></i>
+                                <div>
+                                    <strong>WhatsApp & Telefone</strong>
+                                    <span>(21) 99321-9162</span>
+                                </div>
+                            </div>
+                            <div class="info-line">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <div>
+                                    <strong>Região de Atendimento</strong>
+                                    <span>Rio de Janeiro e Grande Rio</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="icons-contato">
+                        <h4>Acesse Nossos Canais:</h4>
+                        <div class="icons-grid">
+                            <a href="mailto:quadroevolutivohomecare@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-btn btn-email">
+                                <i class="bi bi-envelope-at-fill"></i>
+                                <span>E-mail</span>
+                            </a>                
+                            <a href="https://www.facebook.com/p/Rosa-Issa-home-care-100064869138849/" target="_blank" rel="noopener noreferrer" class="contact-btn btn-fb">                    
+                                <i class="bi bi-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://www.instagram.com/rosaissahomecare?igsh=Mzg3ZWY0NDY3NTh4" target="_blank" rel="noopener noreferrer" class="contact-btn btn-ig">
+                                <i class="bi bi-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://www.youtube.com/@RosaIssaHomeCare" target="_blank" rel="noopener noreferrer" class="contact-btn btn-yt">
+                                <i class="bi bi-youtube"></i>
+                                <span>YouTube</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="interface">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <div class="footer-logo">
+                        <img src="images/logo-1.png" alt="Rosa Issa Home Care" width="48" height="48">
+                        <div>
+                            <h4>Rosa Issa</h4>
+                            <span>Home Care</span>
+                        </div>
+                    </div>
+                    <p>Cuidando da saúde e da dignidade da pessoa idosa com profissionalismo, transparência e acolhimento familiar.</p>
+                </div>
+
+                <div class="footer-col links-col">
+                    <h5>Navegação</h5>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#cuidadosrosissa">Nossos Cuidados</a></li>
+                        <li><a href="#razoes">Vantagens</a></li>
+                        <li><a href="#comofunciona">Como Funciona</a></li>
+                        <li><a href="#duvidas">Dúvidas Frequentes</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col contact-col">
+                    <h5>Contato Direto</h5>
+                    <ul>
+                        <li>
+                            <a href="https://wa.me/5521993219162?text=Olá!%20Quero%20fazer%20um%20orçamento%20com%20a%20Rosa%20Issa." target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-whatsapp"></i> (21) 99321-9162
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:quadroevolutivohomecare@gmail.com">
+                                <i class="bi bi-envelope-fill"></i> quadroevolutivohomecare@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:barretorenato810@gmail.com">
+                                <i class="bi bi-envelope-fill"></i> barretorenato810@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="social-footer">
+                <span class="social-label">Siga-nos nas redes:</span>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/p/Rosa-Issa-home-care-100064869138849/" target="_blank" rel="noopener noreferrer" aria-label="Página no Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/rosaissahomecare?igsh=Mzg3ZWY0NDY3NTh4" target="_blank" rel="noopener noreferrer" aria-label="Perfil no Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@RosaIssaHomeCare" target="_blank" rel="noopener noreferrer" aria-label="Canal no YouTube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bottom-footer">
+                <p>Rosa Issa Home Care &copy; 2026 — Todos os direitos reservados.</p>
+                <p class="credits">Excelência em assistência domiciliar e cuidadores de idosos no Rio de Janeiro.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
